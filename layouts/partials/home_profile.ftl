@@ -4,7 +4,7 @@
     </div>
     <div class="description">
         <#if settings.hitokoto!false>
-            <p id="yiyan">获取中...</p>
+            <p id="yiyan"></p>
         <#else >
             <p>${user.description!''}</p>
         </#if>
