@@ -4,6 +4,7 @@
     <list default="true" id="3a06a336-ad4d-494c-80c2-5fc84cbf45ce" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layouts/partials/footer.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/footer.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/home_profile.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/home_profile.ftl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +23,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="ftl" value="16" />
+          <entry key="ftl" value="17" />
           <entry key="js" value="18" />
           <entry key="md" value="1" />
           <entry key="ts" value="2" />
@@ -33,7 +34,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="FTL" value="16" />
+          <entry key="FTL" value="17" />
           <entry key="JavaScript" value="18" />
           <entry key="Markdown" value="1" />
           <entry key="TypeScript" value="2" />
@@ -43,14 +44,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="ftl" value="248" />
+          <entry key="ftl" value="264" />
           <entry key="txt" value="66" />
           <entry key="yaml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="FTL" value="248" />
+          <entry key="FTL" value="264" />
           <entry key="PLAIN_TEXT" value="66" />
           <entry key="YAML" value="11" />
         </counts>
@@ -77,28 +78,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/partials/footer.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="195">
+              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/layouts/partials/home_profile.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/vendor_gallery.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/lightGallery-all.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
@@ -180,11 +179,11 @@
         <option value="$PROJECT_DIR$/theme.yaml" />
         <option value="$PROJECT_DIR$/layouts/partials/micro.ftl" />
         <option value="$PROJECT_DIR$/layouts/partials/home_post.ftl" />
-        <option value="$PROJECT_DIR$/layouts/partials/home_profile.ftl" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/assets/js/jquery.js" />
         <option value="$PROJECT_DIR$/layouts/_default/baseof.ftl" />
         <option value="$PROJECT_DIR$/layouts/partials/footer.ftl" />
+        <option value="$PROJECT_DIR$/layouts/partials/home_profile.ftl" />
       </list>
     </option>
   </component>
@@ -264,7 +263,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572985501018" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572985898036" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
@@ -297,7 +296,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572979486822</updated>
-      <workItem from="1572979488141" duration="6132000" />
+      <workItem from="1572979488141" duration="6411000" />
     </task>
     <task id="LOCAL-00001" summary="加入名言获取js函数">
       <created>1572981153645</created>
@@ -355,11 +354,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572985423508</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Debuging 。。。">
+      <created>1572985674204</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1572985674204</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6132000" />
+    <option name="totallyTimeSpent" value="6411000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -495,13 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/home_profile.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/partials/home_post.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
@@ -624,8 +623,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/partials/footer.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="195">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/home_profile.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
