@@ -30,6 +30,7 @@
       <#include "../partials/footer.ftl">
      </div>
 
+    <script type="text/javascript" src="${static!}/assets/js/jquery_from_theme_anatole.min.js"></script>
     <script type="text/javascript">
         var url = location.href;
         var urlstatus = false;
