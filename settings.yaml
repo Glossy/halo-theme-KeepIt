@@ -22,6 +22,18 @@ general:
           label: 显示
         - value: false
           label: 隐藏
+    hitokoto:
+      name: hitokoto
+      label: 博客描述开启一言
+      type: radio
+      data-type: bool
+      default: false
+      options:
+      - value: true
+        label: 开启
+      - value: false
+        label: 关闭
+
 social:
   label: 社交
   items:
