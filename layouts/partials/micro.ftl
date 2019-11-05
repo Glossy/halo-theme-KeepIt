@@ -15,9 +15,9 @@
     <meta name="keywords" content="${keywords!}"/>
     <meta name="description" content="${description!}" />
     <@common.globalHeader />
-    <link href="${static!}/source/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
-    <link rel="stylesheet" href="${static!}/source/css/blog_basic.min.css?version=88107691fe">
-    <link href="${static!}/source/css/style.min.css" type="text/css" rel="stylesheet" />
+    <link href="${static!}/assets/css/quote/font-awesome.min.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="${static!}/assets/css/quote/blog_basic.min.css?version=88107691fe">
+    <link href="${static!}/assets/css/quote/style.min.css" type="text/css" rel="stylesheet" />
     <link rel="alternate" type="application/rss+xml" title="atom 1.0" href="/atom.xml">
     <style>
             <#if !settings.post_title_uppper!true>
