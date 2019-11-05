@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a06a336-ad4d-494c-80c2-5fc84cbf45ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/quote/blog_basic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/quote/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/quote/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/partials/micro.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/micro.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/quote/blog_basic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/quote/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/quote/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery_from_theme_anatole.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/home_profile.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/home_profile.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/micro.ftl" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,15 +46,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="ftl" value="18" />
-          <entry key="txt" value="35" />
+          <entry key="ftl" value="87" />
+          <entry key="txt" value="50" />
           <entry key="yaml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="FTL" value="18" />
-          <entry key="PLAIN_TEXT" value="35" />
+          <entry key="FTL" value="87" />
+          <entry key="PLAIN_TEXT" value="50" />
           <entry key="YAML" value="11" />
         </counts>
       </usages-collector>
@@ -78,29 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/layouts/partials/home_profile.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/layouts/partials/micro.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="81" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/quote/blog_basic.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            <state relative-caret-position="624">
+              <caret line="53" column="63" selection-start-line="53" selection-start-column="63" selection-end-line="53" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -129,11 +113,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/jquery_from_theme_anatole.min.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/partials/js.ftl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -159,8 +138,8 @@
       <list>
         <option value="$PROJECT_DIR$/settings.yaml" />
         <option value="$PROJECT_DIR$/theme.yaml" />
-        <option value="$PROJECT_DIR$/layouts/partials/home_profile.ftl" />
         <option value="$PROJECT_DIR$/layouts/partials/micro.ftl" />
+        <option value="$PROJECT_DIR$/layouts/partials/home_profile.ftl" />
       </list>
     </option>
   </component>
@@ -204,8 +183,7 @@
               <item name="halo-theme-KeepIt" type="b2602c69:ProjectViewProjectNode" />
               <item name="halo-theme-KeepIt" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="quote" type="462c0819:PsiDirectoryNode" />
+              <item name="font" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="halo-theme-KeepIt" type="b2602c69:ProjectViewProjectNode" />
@@ -241,7 +219,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572982345947" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572982915289" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
@@ -274,7 +252,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572979486822</updated>
-      <workItem from="1572979488141" duration="3090000" />
+      <workItem from="1572979488141" duration="3662000" />
     </task>
     <task id="LOCAL-00001" summary="加入名言获取js函数">
       <created>1572981153645</created>
@@ -290,11 +268,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572981830539</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="名言函数第三次修改">
+      <created>1572982609793</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572982609793</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3090000" />
+    <option name="totallyTimeSpent" value="3662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -340,7 +325,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="加入名言获取js函数" />
     <MESSAGE value="将名言函数加入micro.ftl中" />
-    <option name="LAST_COMMIT_MESSAGE" value="将名言函数加入micro.ftl中" />
+    <MESSAGE value="名言函数第三次修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="名言函数第三次修改" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/layouts/_default/baseof.ftl">
@@ -405,31 +391,10 @@
         <state relative-caret-position="-3685" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/js.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/home_post.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/home_profile.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -486,8 +451,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/partials/micro.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="81" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
+        <state relative-caret-position="1125">
+          <caret line="75" column="17" lean-forward="true" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/home_post.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/js.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/home_profile.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="53" column="63" selection-start-line="53" selection-start-column="63" selection-end-line="53" selection-end-column="63" />
         </state>
       </provider>
     </entry>
