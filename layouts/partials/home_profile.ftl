@@ -5,8 +5,6 @@
     <div class="description">
         <#if settings.hitokoto!false>
             <p id="yiyan"></p>
-            <br>
-            <br>
         <#else >
             <p>${user.description!''}</p>
         </#if>
