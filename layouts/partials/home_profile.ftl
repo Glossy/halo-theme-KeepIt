@@ -49,7 +49,7 @@
           xhr.send();
         </#if>
 
-        return "获取中...";
+        return "函数被调用...";
     }
     document.getElementById("yiyan").innerText = getSentence();
 </script>
