@@ -1,9 +1,9 @@
 <#include "layouts/_default/baseof.ftl">
-<@baseof title="文章归档 | ${options.blog_title!}" keywords="${options.seo_keywords!}" description="${options.seo_description!}" canonical="${context!}/archives">
+<@baseof title="图库 | ${options.blog_title!}" keywords="${options.seo_keywords!}" description="${options.seo_description!}" canonical="${context!}/photos">
     <div class="post-warp archive">
-        <h2 class="post-title" style="text-align:right;padding-bottom:2em">-&nbsp;文章归档&nbsp;-</h2>
+        <h2 class="post-title" style="text-align:right;padding-bottom:2em">-&nbsp;图库&nbsp;-</h2>
         <#list posts.content as post>
-            <#if (post.tags[0])!"null" != "photos">
+            <#if (post.tags[0])!"null" == "photos">
                 <article class="archive-item">
                     <a href="${context!}/archives/${post.url!}" class="archive-item-link">${post.title!}</a>
                     <span class="archive-item-date">
@@ -12,7 +12,7 @@
                 </article>
             </#if>
         </#list>
-        <#if posts.totalPages gt 1>
+        <#if posts.totalPages gt 1>t
             <ul class="pagination">
                 <#if posts.hasPrevious()>
                     <#if posts.number == 1>
