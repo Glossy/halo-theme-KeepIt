@@ -3,7 +3,7 @@
     <div class="post-warp archive">
         <h2 class="post-title" style="text-align:right;padding-bottom:2em">-&nbsp;文章归档&nbsp;-</h2>
         <#list posts.content as post>
-            <#if (post.tags[0].name)!"null" != "photos">
+            <#if (post.summary!"null") != "photos">
                 <article class="archive-item">
                     <a href="${context!}/archives/${post.url!}" class="archive-item-link">${post.title!}</a>
                     <span class="archive-item-date">
