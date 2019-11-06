@@ -2,7 +2,7 @@
 <@baseof title="分类目录 | ${options.blog_title!}" keywords="${options.seo_keywords!}" description="${options.seo_description!}" canonical="${context!}/categories">
 <!-- Categories Page -->
 <div class="post-warp categories">
-    <h2 class="post-title" style="text-align:right;padding-bottom:2em">-&nbsp;分类目录&nbsp;-</h2>
+    <h2 class="post-title" style="text-align:right;padding-bottom:2em">-&nbsp;Tags&nbsp;-</h2>
     <div class="categories-card">
         <@categoryTag method="list">
             <#list categories as category>

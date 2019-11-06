@@ -1,7 +1,7 @@
 <#include "layouts/_default/baseof.ftl">
-<@baseof title="分类：${category.name} | ${options.blog_title!}" keywords="${options.seo_keywords!}" description="${options.seo_description!}" canonical="${context!}/categories/${category.slugName!}">
+<@baseof title="游记：${category.name} | ${options.blog_title!}" keywords="${options.seo_keywords!}" description="${options.seo_description!}" canonical="${context!}/categories/${category.slugName!}">
 <div class="post-warp archive">
-    <h2 class="post-title" style="text-align:right;padding-bottom:2em">-&nbsp;分类：${category.name!}&nbsp;-</h2>
+    <h2 class="post-title" style="text-align:right;padding-bottom:2em">-&nbsp;Journals：${category.name!}&nbsp;-</h2>
     <#list posts.content as post>
         <article class="archive-item">
             <a href="${context!}/archives/${post.url!}" class="archive-item-link">${post.title!}</a>

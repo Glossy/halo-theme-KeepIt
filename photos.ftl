@@ -5,7 +5,7 @@
 
         <@photoTag method="list">
             <#list photos as photo>
-                <img href="${photo.url}" />
+                <img src="${photo.url}" />
             </#list>
         </@photoTag>
         <#--展示形式和我想的还有出入，我想做的是游记形式的-->
