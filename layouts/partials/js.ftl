@@ -5,6 +5,7 @@
     <script src="${static!}/assets/js/vendor_main.min.js" async=""></script>
 </#if>
     <script type="text/javascript" src="${static!}/assets/js/jquery_from_theme_anatole.min.js"></script>
+    <script type="text/javascript" src="${static!}/assets/js/tocbot.min.js"></script>
     <script type="text/javascript">
         var url = location.href;
         var urlstatus = false;

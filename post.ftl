@@ -85,24 +85,30 @@
         <@comment post=post type="post" />
     </div>
 </article>
-<div class="sidebar-toggle">
-  <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-  </div>
-</div>
 
-<aside id="sidebar" class="sidebar">
-    <div class="sidebar-title">
-        <li>Table of Contents</li>
-    </div>
-    <div class="sidebar-panel">
-        <div class="post-toc-content">
-        </div>
-    </div>
 
-</aside>
+<#--<aside id="sidebar" class="sidebar">-->
+    <#--<div class="sidebar-title">-->
+        <#--<li>Table of Contents</li>-->
+    <#--</div>-->
+    <#--<div class="sidebar-panel">-->
+        <#--<div class="post-toc-content">-->
+        <#--</div>-->
+    <#--</div>-->
 
+<#--</aside>-->
+
+<script type="text/javascript">
+    tocbot.init({
+        // Where to render the table of contents.
+        tocSelector: '.js-toc',
+        // Where to grab the headings to build the table of contents.
+        contentSelector: '.js-toc-content',
+        // Which headings to grab inside of the contentSelector element.
+        headingSelector: 'h1, h2, h3, h4, h5, h6',
+        // For headings inside relative or absolute positioned containers within content.
+        hasInnerContainers: true,
+    });
+</script>
 </@baseof>
 

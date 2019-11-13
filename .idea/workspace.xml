@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a06a336-ad4d-494c-80c2-5fc84cbf45ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/js/post-details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/vendor_gallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/_common/_page/tocbot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/tocbot.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/post-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/post-details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/css.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/css.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/js.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/js.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/post.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/post.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/theme.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,9 +28,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="3" />
-          <entry key="ftl" value="52" />
-          <entry key="js" value="26" />
+          <entry key="css" value="5" />
+          <entry key="ftl" value="55" />
+          <entry key="js" value="31" />
           <entry key="md" value="2" />
           <entry key="rnc" value="1" />
           <entry key="scss" value="4" />
@@ -39,9 +41,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="3" />
-          <entry key="FTL" value="52" />
-          <entry key="JavaScript" value="26" />
+          <entry key="CSS" value="5" />
+          <entry key="FTL" value="55" />
+          <entry key="JavaScript" value="31" />
           <entry key="Markdown" value="2" />
           <entry key="RNG Compact" value="1" />
           <entry key="SCSS" value="4" />
@@ -53,19 +55,19 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="3" />
-          <entry key="ftl" value="773" />
-          <entry key="js" value="109" />
+          <entry key="ftl" value="797" />
+          <entry key="js" value="174" />
           <entry key="scss" value="6" />
-          <entry key="txt" value="222" />
+          <entry key="txt" value="253" />
           <entry key="yaml" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="3" />
-          <entry key="FTL" value="773" />
-          <entry key="JavaScript" value="109" />
-          <entry key="PLAIN_TEXT" value="222" />
+          <entry key="FTL" value="797" />
+          <entry key="JavaScript" value="174" />
+          <entry key="PLAIN_TEXT" value="253" />
           <entry key="SCSS" value="6" />
           <entry key="YAML" value="24" />
         </counts>
@@ -74,20 +76,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/category.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="86" selection-start-line="3" selection-start-column="86" selection-end-line="3" selection-end-column="86" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/post.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+            <state relative-caret-position="126">
+              <caret line="93" column="15" selection-start-line="93" selection-start-column="15" selection-end-line="93" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -95,8 +88,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/post-details.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state>
+              <caret selection-end-line="9" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -111,37 +113,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layouts/partials/css.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/lightGallery-all.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/layouts/partials/js.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state relative-caret-position="36">
+              <caret line="7" column="74" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.yaml">
+        <entry file="file://$PROJECT_DIR$/assets/css/main.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+            <state>
+              <caret column="20796" selection-start-column="20796" selection-end-column="20796" />
+              <folding>
+                <element signature="e#12493#16440#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/theme.yaml">
+        <entry file="file://$PROJECT_DIR$/assets/js/tocbot.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            <state>
+              <caret column="8676" selection-start-column="8676" selection-end-column="8676" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/photos.ftl">
+        <entry file="file://$PROJECT_DIR$/assets/css/_common/_page/tocbot.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state>
+              <caret column="564" selection-start-column="564" selection-end-column="564" />
             </state>
           </provider>
         </entry>
@@ -152,6 +178,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -191,11 +218,14 @@
         <option value="$PROJECT_DIR$/theme.yaml" />
         <option value="$PROJECT_DIR$/assets/js/motion.js" />
         <option value="$PROJECT_DIR$/assets/js/util.js" />
-        <option value="$PROJECT_DIR$/post.ftl" />
         <option value="$PROJECT_DIR$/assets/js/utils.js" />
-        <option value="$PROJECT_DIR$/layouts/partials/js.ftl" />
         <option value="$PROJECT_DIR$/layouts/partials/header.ftl" />
+        <option value="$PROJECT_DIR$/assets/js/tocbot.min.js" />
+        <option value="$PROJECT_DIR$/assets/css/_common/_page/tocbot.css" />
         <option value="$PROJECT_DIR$/assets/js/post-details.js" />
+        <option value="$PROJECT_DIR$/layouts/partials/css.ftl" />
+        <option value="$PROJECT_DIR$/layouts/partials/js.ftl" />
+        <option value="$PROJECT_DIR$/post.ftl" />
       </list>
     </option>
   </component>
@@ -242,6 +272,14 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
               <item name="_common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="halo-theme-KeepIt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="halo-theme-KeepIt" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="_common" type="462c0819:PsiDirectoryNode" />
+              <item name="_page" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="halo-theme-KeepIt" type="b2602c69:ProjectViewProjectNode" />
@@ -301,7 +339,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573610534998" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573651156217" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
@@ -336,7 +375,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572979486822</updated>
       <workItem from="1572979488141" duration="7111000" />
-      <workItem from="1573613607216" duration="343000" />
+      <workItem from="1573613607216" duration="1975000" />
     </task>
     <task id="LOCAL-00001" summary="加入名言获取js函数">
       <created>1572981153645</created>
@@ -443,17 +482,24 @@
       <option name="project" value="LOCAL" />
       <updated>1573024895216</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="加入sidebar，修改theme.yaml">
+      <created>1573617443776</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1573617443776</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30487000" />
+    <option name="totallyTimeSpent" value="32119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24236111" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24236111" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -468,7 +514,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32079905" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32079905" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -502,15 +548,10 @@
     <MESSAGE value="加入图库ftl 2019-11-06 11:58:32" />
     <MESSAGE value="Debuging 2019-11-06 12:21:14" />
     <MESSAGE value="加入图库和游记页面 2019-11-06 15:21:28" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入图库和游记页面 2019-11-06 15:21:28" />
+    <MESSAGE value="加入sidebar，修改theme.yaml" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入sidebar，修改theme.yaml" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3685" />
@@ -521,15 +562,11 @@
     <entry file="file://$PROJECT_DIR$/assets/css/quote/blog_basic.css" />
     <entry file="file://$PROJECT_DIR$/layouts/partials/micro.ftl" />
     <entry file="file://$PROJECT_DIR$/assets/js/vendor_main.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/lightGallery-init.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/lightGallery-all.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -538,13 +575,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/lazysizes.min.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/jquery.js" />
     <entry file="file://$PROJECT_DIR$/layouts/partials/share-links.ftl">
@@ -561,9 +591,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/layouts/partials/comments.ftl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/css.ftl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/_common/_core/media.scss">
@@ -636,17 +663,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/vendor_gallery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55990">
-          <caret line="6031" column="3" selection-start-line="6031" selection-start-column="3" selection-end-line="6031" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/vendor_gallery.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret column="2342" selection-end-line="19" selection-end-column="211" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -657,17 +680,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/main.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20796" selection-start-column="20796" selection-end-column="20796" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -732,27 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/post-details.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/header.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/layouts/partials/js.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -774,10 +772,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/vendor_gallery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="6031" column="3" selection-start-line="6031" selection-start-column="3" selection-end-line="6031" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#6#12#1" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/lightGallery-init.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/lightGallery-all.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/main.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20796" selection-start-column="20796" selection-end-column="20796" />
+          <folding>
+            <element signature="e#12493#16440#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/_common/_page/tocbot.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="564" selection-start-column="564" selection-end-column="564" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/tocbot.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8676" selection-start-column="8676" selection-end-column="8676" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/post-details.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/header.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/js.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="7" column="74" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/partials/css.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/post.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        <state relative-caret-position="126">
+          <caret line="93" column="15" selection-start-line="93" selection-start-column="15" selection-end-line="93" selection-end-column="15" />
         </state>
       </provider>
     </entry>
