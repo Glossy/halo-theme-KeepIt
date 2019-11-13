@@ -85,5 +85,24 @@
         <@comment post=post type="post" />
     </div>
 </article>
+<div class="sidebar-toggle">
+  <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+  </div>
+</div>
+
+<aside id="sidebar" class="sidebar">
+    <div class="sidebar-title">
+        <li>Table of Contents</li>
+    </div>
+    <div class="sidebar-panel">
+        <div class="post-toc-content">
+        </div>
+    </div>
+
+</aside>
+
 </@baseof>
 

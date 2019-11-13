@@ -7,4 +7,7 @@
     <option name="sourceMapEmbedSources" />
     <option name="sourceMapPrefix" />
   </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/assets/js/vendor_gallery.js" />
+  </component>
 </project>

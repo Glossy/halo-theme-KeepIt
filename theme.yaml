@@ -1,10 +1,10 @@
-id: fastbyte01_keepit
+id: keepit
 name: KeepIt01
 author:
   name: Wu
-  website: https://fsb01.com
+  website: https://thomaswu.cn
 description:
 logo:
 website: https://github.com/Fastbyte01/KeepIt
-repo: https://github.com/halo-dev/halo-theme-KeepIt
+repo: https://github.com/Glossy/halo-theme-KeepIt
 version: 0.1
